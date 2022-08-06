@@ -1,1 +1,5 @@
-# Innotar
+This is the prototype for T26 Innotar. It is a web3 application which supports certifying, verifying, storing a file and getting a file which is a combination of on-chain storage (Ethereum) and off-chain storage (IPFS).  
+
+Only the digital fingerprint (a hash string) and some metadata of a file to be certified will be uploaded to Ethereum. In our demo, Ethereum Ropsten network (a Proof-of-Work testnet) is used. You can get some faucet through: https://faucet.metamask.io/. The orginal file will be stored on IPFS.
+
+In our real platform, it involves not only the citizens (end users) but also notaries whose responsibility is to validate the document is authentic and the terms stated in the document is legal which are the conditions of a notarial act. After the notary reviewing and validate the contents of the document, the notary can confirm the certifying process by giving out his/her digital signature. Then, the notarized document and supporting materials will be certified to blockchain and stored on IPFS. The users then can get a certificate of notarization and other sections of government can varify the notarized document functioned by our smart contract on-chain. Moreover, users can give access to the government to get their files stored on IPFS.
